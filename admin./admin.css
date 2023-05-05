@@ -1,0 +1,73 @@
+/* * phan dau header */
+.header {
+  background-color: white;
+}
+.headerElement {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(247, 226, 226);
+  padding-top: 20px;
+}
+/* .headerElement h2:hover {
+    background-color: rgba(233, 215, 19, 0.823);
+    width: 210px;
+    height: 45px;
+  } */
+a i {
+  font-size: 30px;
+  color: #100e0d;
+}
+.headerElement a {
+  text-decoration: none;
+  color: #0a0a0b;
+}
+.btn {
+  margin-bottom: 30px;
+}
+.headerElement button:hover {
+  background-color: rgba(233, 215, 19, 0.823);
+}
+.listProduct {
+  text-align: center;
+  width: 80%;
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+.listProduct a {
+  color: rgb(10, 10, 10) !important;
+  text-decoration: none;
+  line-height: 40px;
+}
+.listProduct a:hover {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(222, 182, 24, 0.916);
+}
+/* css phan thanh toan */
+.tbody img {
+  width: 30%;
+  height: 30%;
+}
+.confirm {
+  background-color: rgb(144, 36, 133) !important;
+  border: rgb(144, 36, 133) !important;
+}
+.cancel {
+  background-color: rgb(16, 22, 22) !important;
+  border: #1b1b1b !important;
+}
+
+.img_admin {
+  width: 40%;
+}
+.btn-primary {
+  padding-top: 20px;
+}
+/* phan cuoi */
+.cyborg {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  color: rgb(20, 22, 22);
+}

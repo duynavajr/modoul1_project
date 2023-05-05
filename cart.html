@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS.STYLE/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web 4/css/all.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="headerElement">
+        <a href="./index.html"><h2>NAVA SPORT</h2></a>
+        <form action="">
+          <input type="text" placeholder="Tìm kiếm" />
+          <button type="submit">Tìm kiếm</button>
+        </form>
+        <a href="./cart.html"
+          >GIỎ HÀNG <i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <a href="./form.html">
+          <button class="btn" type="submit">Đăng Xuât !</button></a
+        >
+      </nav>
+      <div class="listProduct">
+        <div class="row">
+          <!-- <a href="../trangchu/webSNEAKER/index.html" class="col">SNEAKER</a> -->
+          <a href="./nike.html" class="col">NIKE</a>
+          <a href="./adidas.html" class="col">ADIDAS</a>
+          <a href="./puma.html" class="col">PUMA</a>
+          <a href="./mizuno.html" class="col">MIZUNO</a>
+        </div>
+      </div>
+    </div>
+    <!-- phan thanh toan -->
+    <section class="gio-sanpham">
+      <div id="gio-SP">
+        <h1 style="margin-top: 10px">GIỎ HÀNG CỦA BẠN</h1>
+        <!-- <p>
+          Các mặt hàng trong giỏ hàng của bạn không được bảo lưu — hãy kiểm tra
+          ngay để đặt hàng.
+        </p> -->
+        <div style="display: flex; gap: 30px">
+          <div id="list-giay">
+            <!-- <div class="giay-dep" id="giay-dep"> -->
+            <!-- <div>
+                <img src="./IMG./nike img/nike5.jpeg" />
+              </div>
+              <div class="font-giohang">
+                <div class="name-sanpham">GIÀY NIKE</div>
+                <div class="gia-sanpham">giá:600,000 đ</div>
+                <div>
+                  <label>Chọn kích thước giày dép:</label>
+                  <select name="size" class="size-giay-dep">
+                    <option value="size">size</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                  </select>
+                </div>
+                <div>
+                  <label>sốlượng</label>
+                  <input class="sl-sanpham" type="number" min="0" max="100" />
+                </div>
+              </div>
+              <div style="margin-left: 200px; font-size: 2em">
+                <ion-icon name="close-outline"></ion-icon>
+              </div> -->
+            <!-- </div> -->
+          </div>
+          <div id="buy-sanpham" class="buy-sanpham">
+            <button class="btn_pay">THANH TOÁN</button>
+            <h1>TÓM TẮT ĐƠN HÀNG</h1>
+            <div class="sl-tong-sanpham">
+              <span>Số lượng Sản Phẩm</span>
+              <span id="chua">2</span>
+            </div>
+            <div class="sl-tong-sanpham">
+              <span>Giao Hàng</span>
+              <span>Miễn Phí</span>
+            </div>
+            <div class="sl-tong-sanpham">
+              <span><b id="">TỔNG</b></span>
+              <span id="sum">3,700,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!-- phan cuoi -->
+      <div class="cyborg">
+        <div class="text-6">
+          <p><b>Giới thiệu</b></p>
+          <p>Giới thiệu về Quizlet</p>
+          <p>Tuyển dụng</p>
+          <p>Quảng cáo trên Quizlet</p>
+          <p>Tin tức</p>
+          <p>Tải ứng dụng</p>
+        </div>
+        <div class="text-7">
+          <p><b>Dành cho học sinh</b></p>
+          <p>Thẻ ghi nhớ</p>
+          <p>Học</p>
+          <p>Lời giải</p>
+          <p>Quizlet Plus</p>
+        </div>
+        <div class="text-8">
+          <p><b>Dành cho người lớn</b></p>
+          <p>Live</p>
+          <p>Cột mốc</p>
+          <p>Blog</p>
+          <p>Quizlet Plus cho giáo viên</p>
+        </div>
+        <div class="text-9">
+          <p><b>Thông Tin Liên Hệ</b></p>
+          <a href="" style="color: rgb(19, 5, 219)">FACEBOOK</a> <br />
+          <a href="" style="color: rgb(19, 5, 219)">EMAIL</a> <br />
+          <a href="" style="color: rgb(19, 5, 219)">INSTAGRAM</a>
+          <p>Nguyên tắc cộng đồng</p>
+          <p>Quyền riêng tư <ion-icon name="shield-half-outline"></ion-icon></p>
+          <p>Điều khoản</p>
+          <p>Chính sách quảng cáo và cookie</p>
+        </div>
+        <div class="text-10">
+          <p><b>Ngôn ngữ</b></p>
+          <p>Tiếng Việt</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./APP.JS/cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
